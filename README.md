@@ -20,19 +20,21 @@ This study uses the Counter-Trafficking Data Collaborative (CTDC) Global Synthet
 
 ### Project Structure:
 
+```text
 .
-├── README.md               # Project overview, abstract, methods, findings
-├── LICENSE                 # Project license
-├── analysis.ipynb          # Modeling, results, and visualizations
-├── process_data.ipynb      # Data cleaning and feature engineering
+├── README.md              
+├── LICENSE                
+├── analysis.ipynb         
+├── process_data.ipynb     
 ├── notebook_pdfs/                         
 │   ├── analysis.pdf
 │   └── process_data.pdf
 ├── data/                  
-│   ├── Codebook_CTDC_global_synthetic_data_v2024.pdf  # CTDC variable definitions
-│   ├── CTDC_global_synthetic_data_v2025.csv           # Raw CTDC synthetic data
-│   └── final_data.csv                                 # Cleaned analysis dataset
+│   ├── Codebook_CTDC_global_synthetic_data_v2024.pdf
+│   ├── CTDC_global_synthetic_data_v2025.csv 
+│   └── final_data.csv                     
 └── figures/               
     ├── forest_plot.png
     ├── feature_correlation.png
     └── roc_curves.png
+```
