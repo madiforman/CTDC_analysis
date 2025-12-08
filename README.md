@@ -26,14 +26,14 @@ This study uses the Counter-Trafficking Data Collaborative (CTDC) Global Synthet
 ├── LICENSE                
 ├── analysis.ipynb         
 ├── process_data.ipynb     
-├── notebook_pdfs/                         
+├── notebook_pdfs/      # notebooks in pdf form                        
 │   ├── analysis.pdf
 │   └── process_data.pdf
-├── data/                  
+├── data/               # all data used and generated in analysis                  
 │   ├── Codebook_CTDC_global_synthetic_data_v2024.pdf
 │   ├── CTDC_global_synthetic_data_v2025.csv 
 │   └── final_data.csv                     
-└── figures/               
+└── figures/            # all figures used and generated in analysis
     ├── forest_plot.png
     ├── feature_correlation.png
     └── roc_curves.png
